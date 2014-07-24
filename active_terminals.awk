@@ -3,9 +3,7 @@
 
 #Usage:
 #tty=$(tty); w -h | awk -vtty=${tty#/*/} -vmaxtime=5 -f getusers -
-#BEGIN { system("tty")
-#  close("tty")
-#}
+
 
 {time = "minute(s)"}
 
